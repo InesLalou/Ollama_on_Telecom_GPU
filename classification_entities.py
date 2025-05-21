@@ -6,9 +6,11 @@ from time import sleep
 from sklearn.metrics import classification_report
 
 # Modifier ce chemin selon où tu places ce script
-BASE_PATH = "C:/Users/ine28/OneDrive/Documents/Mastère_IA/Projet_Fil_Rouge/dataset_val"
+# LOCAL
+#BASE_PATH = "C:/Users/ine28/OneDrive/Documents/Mastère_IA/Projet_Fil_Rouge/dataset_val"
+# GPU TELECOM PARIS
+BASE_PATH = "/home/infres/lalou-24/experiments/dataset_val"
 
-# Langues
 languages = ["EN", "RU", "PT", "HI", "BG"]
 
 # Nombre max d'entités à prédire par langue

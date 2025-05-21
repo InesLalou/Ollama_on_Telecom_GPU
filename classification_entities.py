@@ -25,12 +25,24 @@ Texte : "KHARKIV - Russia pounded over 30 villages and towns in Ukraine’s nort
 Entité : "Russia"
 Rôle : Antagonist
 
+Texte : ""Мы не готовы пойти на компромисс (с Россией - ред.) ради очень важных вещей и ценностей", - сказал Ермак."
+Entité : "Ермак"
+Rôle : Antagonist
+
 Texte : "Alsynov has previously criticized military mobilization in the region as “genocide” against the Bashkir people."
 Entité : "Bashkir people"
 Rôle : Innocent
 
+Texte : "И в Часов Яре, Волчанске, под Торецком - действительно Сталинград. Дома переходят из рук в руки по несколько раз."
+Entité : "Волчанске"
+Rôle : Innocent
+
 Texte : "In this event, we show the world we exist: we are Ukraine, a real powerful, independent and democratic country,\" said Valeriy Sushkevych."
 Entité : "Ukraine"
+Rôle : Protagonist
+
+Texte : "Новости с фронта - как сводки из Сталинграда. На Артемовском направлении ВС РФ заняли многоэтажный дом на улице Кошевого 8, взяв под контроль большую часть микрорайона Канал в Часов Яре (с) @rybar"
+Entité : "ВС РФ"
 Rôle : Protagonist
 """
 

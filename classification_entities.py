@@ -129,7 +129,7 @@ Rôle :"""
 
             try:
                 response = client.chat(
-                    model="gemma3",
+                    model="gemma3:12b",
                     messages=[{"role": "user", "content": prompt}]
                 )
                 predicted_role_raw = response['message']['content'].strip()

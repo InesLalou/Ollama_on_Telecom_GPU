@@ -242,10 +242,9 @@ for lang in languages:
                 Texte : \"{entity_snippet}\"
                 Entité : \"{entity_text}\"
 
-                Analyse le contexte et explique quel rôle joue cette entité dans le texte. Ensuite, donne une seule réponse finale pour le rôel choisie parmi : Protagonist, Antagonist, Innocent.
-                Format :
+                Voici le format de ta réponse :
                 1. Explication
-                2. Sous-rôle : 
+                1. Sous-rôle : 
                 2. Rôle : <Protagonist|Antagonist|Innocent>
                 """
 

@@ -242,9 +242,10 @@ for lang in languages:
                 Texte : \"{entity_snippet}\"
                 Entité : \"{entity_text}\"
 
-                Analyse le contexte et explique quel rôle joue cette entité dans le texte. Ensuite, donne une seule réponse finale choisie parmi : Protagonist, Antagonist, Innocent.
+                Analyse le contexte et explique quel rôle joue cette entité dans le texte. Ensuite, donne une seule réponse finale pour le rôel choisie parmi : Protagonist, Antagonist, Innocent.
                 Format :
                 1. Explication
+                2. Sous-rôle : 
                 2. Rôle : <Protagonist|Antagonist|Innocent>
                 """
 
@@ -255,7 +256,7 @@ for lang in languages:
 
                 try:
                     response = client.chat(
-                        model="gemma3:latest",
+                        model="qwen3:14b",
                         messages=[{"role": "user", "content": prompt}]
                     )
                     predicted_role_raw = response['message']['content'].strip()

@@ -9,7 +9,7 @@ import re
 
 
 # Modifier ce chemin selon où tu places ce script
-BASE_PATH = "C:/Users/ine28/OneDrive/Documents/Mastère_IA/Projet_Fil_Rouge/dataset_val"
+BASE_PATH = "/home/infres/lalou-24/experiments/dataset_val"
 
 # Langues
 languages = ["EN", "RU", "PT", "HI", "BG"]

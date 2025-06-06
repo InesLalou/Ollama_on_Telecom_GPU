@@ -228,7 +228,11 @@ for lang in languages:
                 - Conspirator : complote en secret.
                 - Tyrant : abuse de son pouvoir.
                 - Saboteur : détruit ou bloque intentionnellement.
-                - Corrupt, Incompetent, Traitor, Terrorist, etc.
+                - Corrupt : agit de manière illégale ou immorale pour son intérêt personnel.
+                - Incompetent : cause des torts par ignorance ou manque de compétence.
+                - Terrorist : utilise la violence pour imposer une idéologie.
+                - Deceiver : manipule et désinforme pour servir ses propres intérêts.
+                - Bigot : discrimine et propage la haine envers certains groupes.
 
                 Innocent :
                 - Victim : souffre d’un préjudice sans en être responsable.
